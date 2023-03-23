@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DC6A33229CB9CFD00E564A2 /* MapLottieThreeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6A33129CB9CFD00E564A2 /* MapLottieThreeApp.swift */; };
+		4DC6A33429CB9CFD00E564A2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6A33329CB9CFD00E564A2 /* MapView.swift */; };
+		4DC6A33629CB9CFF00E564A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6A33529CB9CFF00E564A2 /* Assets.xcassets */; };
+		4DC6A33929CB9CFF00E564A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6A33829CB9CFF00E564A2 /* Preview Assets.xcassets */; };
+		4DC6A34329CB9CFF00E564A2 /* MapLottieThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6A34229CB9CFF00E564A2 /* MapLottieThreeTests.swift */; };
+		4DC6A34D29CB9CFF00E564A2 /* MapLottieThreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6A34C29CB9CFF00E564A2 /* MapLottieThreeUITests.swift */; };
+		4DC6A34F29CB9CFF00E564A2 /* MapLottieThreeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6A34E29CB9CFF00E564A2 /* MapLottieThreeUITestsLaunchTests.swift */; };
+		4DC6A35C29CBABE500E564A2 /* CustomMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6A35B29CBABE500E564A2 /* CustomMapView.swift */; };
+		4DC6A35F29CBC82300E564A2 /* LottieFIleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6A35E29CBC82300E564A2 /* LottieFIleView.swift */; };
+		4DC6A36229CBC86000E564A2 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 4DC6A36129CBC86000E564A2 /* Lottie */; };
+		4DC6A36529CBCA9B00E564A2 /* Coworkers.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6A36429CBCA9B00E564A2 /* Coworkers.json */; };
+		4DC6A36629CBCA9B00E564A2 /* Coworkers.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6A36429CBCA9B00E564A2 /* Coworkers.json */; };
+		4DC6A36729CBCA9B00E564A2 /* Coworkers.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6A36429CBCA9B00E564A2 /* Coworkers.json */; };
+		4DC6A36929CBD00900E564A2 /* Cubes.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6A36829CBD00900E564A2 /* Cubes.json */; };
+		4DC6A36A29CBD00900E564A2 /* Cubes.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6A36829CBD00900E564A2 /* Cubes.json */; };
+		4DC6A36B29CBD00900E564A2 /* Cubes.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6A36829CBD00900E564A2 /* Cubes.json */; };
+		4DC6A36D29CBD85B00E564A2 /* WonderCar.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6A36C29CBD85B00E564A2 /* WonderCar.json */; };
+		4DC6A36E29CBD85B00E564A2 /* WonderCar.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6A36C29CBD85B00E564A2 /* WonderCar.json */; };
+		4DC6A36F29CBD85B00E564A2 /* WonderCar.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6A36C29CBD85B00E564A2 /* WonderCar.json */; };
+		4DC6A37129CBEED200E564A2 /* Heart.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6A37029CBEED200E564A2 /* Heart.json */; };
+		4DC6A37229CBEED200E564A2 /* Heart.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6A37029CBEED200E564A2 /* Heart.json */; };
+		4DC6A37329CBEED200E564A2 /* Heart.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6A37029CBEED200E564A2 /* Heart.json */; };
+		4DC6A37529CBF0EE00E564A2 /* ThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6A37429CBF0EE00E564A2 /* ThreeView.swift */; };
+		4DC6A37629CBF0EE00E564A2 /* ThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6A37429CBF0EE00E564A2 /* ThreeView.swift */; };
+		4DC6A37729CBF0EE00E564A2 /* ThreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6A37429CBF0EE00E564A2 /* ThreeView.swift */; };
+		4DC6A38A29CBF7F400E564A2 /* SAMSUNG_Laptop.scn in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6A38929CBF7F300E564A2 /* SAMSUNG_Laptop.scn */; };
+		4DC6A38B29CBF7F400E564A2 /* SAMSUNG_Laptop.scn in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6A38929CBF7F300E564A2 /* SAMSUNG_Laptop.scn */; };
+		4DC6A38C29CBF7F400E564A2 /* SAMSUNG_Laptop.scn in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6A38929CBF7F300E564A2 /* SAMSUNG_Laptop.scn */; };
+		4DC6A38E29CBF9E800E564A2 /* SLT_Dif.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6A38D29CBF9E800E564A2 /* SLT_Dif.png */; };
+		4DC6A38F29CBF9E800E564A2 /* SLT_Dif.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6A38D29CBF9E800E564A2 /* SLT_Dif.png */; };
+		4DC6A39029CBF9E800E564A2 /* SLT_Dif.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6A38D29CBF9E800E564A2 /* SLT_Dif.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DC6A33F29CB9CFF00E564A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DC6A32629CB9CFD00E564A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DC6A32D29CB9CFD00E564A2;
+			remoteInfo = MapLottieThree;
+		};
+		4DC6A34929CB9CFF00E564A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DC6A32629CB9CFD00E564A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DC6A32D29CB9CFD00E564A2;
+			remoteInfo = MapLottieThree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DC6A32E29CB9CFD00E564A2 /* MapLottieThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapLottieThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC6A33129CB9CFD00E564A2 /* MapLottieThreeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLottieThreeApp.swift; sourceTree = "<group>"; };
+		4DC6A33329CB9CFD00E564A2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		4DC6A33529CB9CFF00E564A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DC6A33829CB9CFF00E564A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DC6A33E29CB9CFF00E564A2 /* MapLottieThreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapLottieThreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC6A34229CB9CFF00E564A2 /* MapLottieThreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLottieThreeTests.swift; sourceTree = "<group>"; };
+		4DC6A34829CB9CFF00E564A2 /* MapLottieThreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapLottieThreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC6A34C29CB9CFF00E564A2 /* MapLottieThreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLottieThreeUITests.swift; sourceTree = "<group>"; };
+		4DC6A34E29CB9CFF00E564A2 /* MapLottieThreeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLottieThreeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4DC6A35B29CBABE500E564A2 /* CustomMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMapView.swift; sourceTree = "<group>"; };
+		4DC6A35D29CBB44300E564A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4DC6A35E29CBC82300E564A2 /* LottieFIleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieFIleView.swift; sourceTree = "<group>"; };
+		4DC6A36429CBCA9B00E564A2 /* Coworkers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Coworkers.json; path = ../../../../../../Downloads/Coworkers.json; sourceTree = "<group>"; };
+		4DC6A36829CBD00900E564A2 /* Cubes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Cubes.json; path = ../../../../../../Downloads/Cubes.json; sourceTree = "<group>"; };
+		4DC6A36C29CBD85B00E564A2 /* WonderCar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = WonderCar.json; path = ../../../../../../Downloads/WonderCar.json; sourceTree = "<group>"; };
+		4DC6A37029CBEED200E564A2 /* Heart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Heart.json; path = ../../../../../../Downloads/Heart.json; sourceTree = "<group>"; };
+		4DC6A37429CBF0EE00E564A2 /* ThreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeView.swift; sourceTree = "<group>"; };
+		4DC6A38929CBF7F300E564A2 /* SAMSUNG_Laptop.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = SAMSUNG_Laptop.scn; path = "../../../../../../Downloads/samsung-series-9-notebook-1768/source/Samsung Series 9 notebook 1768/SAMSUNG_Laptop.scn"; sourceTree = "<group>"; };
+		4DC6A38D29CBF9E800E564A2 /* SLT_Dif.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SLT_Dif.png; path = "../../../../../../Downloads/samsung-series-9-notebook-1768/textures/SLT_Dif.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DC6A32B29CB9CFD00E564A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC6A36229CBC86000E564A2 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC6A33B29CB9CFF00E564A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC6A34529CB9CFF00E564A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DC6A32529CB9CFD00E564A2 = {
+			isa = PBXGroup;
+			children = (
+				4DC6A33029CB9CFD00E564A2 /* MapLottieThree */,
+				4DC6A34129CB9CFF00E564A2 /* MapLottieThreeTests */,
+				4DC6A34B29CB9CFF00E564A2 /* MapLottieThreeUITests */,
+				4DC6A32F29CB9CFD00E564A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DC6A32F29CB9CFD00E564A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DC6A32E29CB9CFD00E564A2 /* MapLottieThree.app */,
+				4DC6A33E29CB9CFF00E564A2 /* MapLottieThreeTests.xctest */,
+				4DC6A34829CB9CFF00E564A2 /* MapLottieThreeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DC6A33029CB9CFD00E564A2 /* MapLottieThree */ = {
+			isa = PBXGroup;
+			children = (
+				4DC6A37829CBF25800E564A2 /* Models */,
+				4DC6A36329CBCA2700E564A2 /* LottieFiles */,
+				4DC6A35D29CBB44300E564A2 /* Info.plist */,
+				4DC6A33129CB9CFD00E564A2 /* MapLottieThreeApp.swift */,
+				4DC6A33329CB9CFD00E564A2 /* MapView.swift */,
+				4DC6A35B29CBABE500E564A2 /* CustomMapView.swift */,
+				4DC6A35E29CBC82300E564A2 /* LottieFIleView.swift */,
+				4DC6A37429CBF0EE00E564A2 /* ThreeView.swift */,
+				4DC6A33529CB9CFF00E564A2 /* Assets.xcassets */,
+				4DC6A33729CB9CFF00E564A2 /* Preview Content */,
+			);
+			path = MapLottieThree;
+			sourceTree = "<group>";
+		};
+		4DC6A33729CB9CFF00E564A2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4DC6A33829CB9CFF00E564A2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DC6A34129CB9CFF00E564A2 /* MapLottieThreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DC6A34229CB9CFF00E564A2 /* MapLottieThreeTests.swift */,
+			);
+			path = MapLottieThreeTests;
+			sourceTree = "<group>";
+		};
+		4DC6A34B29CB9CFF00E564A2 /* MapLottieThreeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DC6A34C29CB9CFF00E564A2 /* MapLottieThreeUITests.swift */,
+				4DC6A34E29CB9CFF00E564A2 /* MapLottieThreeUITestsLaunchTests.swift */,
+			);
+			path = MapLottieThreeUITests;
+			sourceTree = "<group>";
+		};
+		4DC6A36329CBCA2700E564A2 /* LottieFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4DC6A37029CBEED200E564A2 /* Heart.json */,
+				4DC6A36C29CBD85B00E564A2 /* WonderCar.json */,
+				4DC6A36829CBD00900E564A2 /* Cubes.json */,
+				4DC6A36429CBCA9B00E564A2 /* Coworkers.json */,
+			);
+			path = LottieFiles;
+			sourceTree = "<group>";
+		};
+		4DC6A37829CBF25800E564A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DC6A38D29CBF9E800E564A2 /* SLT_Dif.png */,
+				4DC6A38929CBF7F300E564A2 /* SAMSUNG_Laptop.scn */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DC6A32D29CB9CFD00E564A2 /* MapLottieThree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC6A35229CB9CFF00E564A2 /* Build configuration list for PBXNativeTarget "MapLottieThree" */;
+			buildPhases = (
+				4DC6A32A29CB9CFD00E564A2 /* Sources */,
+				4DC6A32B29CB9CFD00E564A2 /* Frameworks */,
+				4DC6A32C29CB9CFD00E564A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapLottieThree;
+			packageProductDependencies = (
+				4DC6A36129CBC86000E564A2 /* Lottie */,
+			);
+			productName = MapLottieThree;
+			productReference = 4DC6A32E29CB9CFD00E564A2 /* MapLottieThree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DC6A33D29CB9CFF00E564A2 /* MapLottieThreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC6A35529CB9CFF00E564A2 /* Build configuration list for PBXNativeTarget "MapLottieThreeTests" */;
+			buildPhases = (
+				4DC6A33A29CB9CFF00E564A2 /* Sources */,
+				4DC6A33B29CB9CFF00E564A2 /* Frameworks */,
+				4DC6A33C29CB9CFF00E564A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DC6A34029CB9CFF00E564A2 /* PBXTargetDependency */,
+			);
+			name = MapLottieThreeTests;
+			productName = MapLottieThreeTests;
+			productReference = 4DC6A33E29CB9CFF00E564A2 /* MapLottieThreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DC6A34729CB9CFF00E564A2 /* MapLottieThreeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC6A35829CB9CFF00E564A2 /* Build configuration list for PBXNativeTarget "MapLottieThreeUITests" */;
+			buildPhases = (
+				4DC6A34429CB9CFF00E564A2 /* Sources */,
+				4DC6A34529CB9CFF00E564A2 /* Frameworks */,
+				4DC6A34629CB9CFF00E564A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DC6A34A29CB9CFF00E564A2 /* PBXTargetDependency */,
+			);
+			name = MapLottieThreeUITests;
+			productName = MapLottieThreeUITests;
+			productReference = 4DC6A34829CB9CFF00E564A2 /* MapLottieThreeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DC6A32629CB9CFD00E564A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4DC6A32D29CB9CFD00E564A2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					4DC6A33D29CB9CFF00E564A2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4DC6A32D29CB9CFD00E564A2;
+					};
+					4DC6A34729CB9CFF00E564A2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 4DC6A32D29CB9CFD00E564A2;
+					};
+				};
+			};
+			buildConfigurationList = 4DC6A32929CB9CFD00E564A2 /* Build configuration list for PBXProject "MapLottieThree" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DC6A32529CB9CFD00E564A2;
+			packageReferences = (
+				4DC6A36029CBC86000E564A2 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 4DC6A32F29CB9CFD00E564A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DC6A32D29CB9CFD00E564A2 /* MapLottieThree */,
+				4DC6A33D29CB9CFF00E564A2 /* MapLottieThreeTests */,
+				4DC6A34729CB9CFF00E564A2 /* MapLottieThreeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DC6A32C29CB9CFD00E564A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC6A36929CBD00900E564A2 /* Cubes.json in Resources */,
+				4DC6A36529CBCA9B00E564A2 /* Coworkers.json in Resources */,
+				4DC6A37129CBEED200E564A2 /* Heart.json in Resources */,
+				4DC6A38E29CBF9E800E564A2 /* SLT_Dif.png in Resources */,
+				4DC6A36D29CBD85B00E564A2 /* WonderCar.json in Resources */,
+				4DC6A33929CB9CFF00E564A2 /* Preview Assets.xcassets in Resources */,
+				4DC6A38A29CBF7F400E564A2 /* SAMSUNG_Laptop.scn in Resources */,
+				4DC6A33629CB9CFF00E564A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC6A33C29CB9CFF00E564A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC6A36A29CBD00900E564A2 /* Cubes.json in Resources */,
+				4DC6A38F29CBF9E800E564A2 /* SLT_Dif.png in Resources */,
+				4DC6A36E29CBD85B00E564A2 /* WonderCar.json in Resources */,
+				4DC6A37229CBEED200E564A2 /* Heart.json in Resources */,
+				4DC6A38B29CBF7F400E564A2 /* SAMSUNG_Laptop.scn in Resources */,
+				4DC6A36629CBCA9B00E564A2 /* Coworkers.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC6A34629CB9CFF00E564A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC6A36B29CBD00900E564A2 /* Cubes.json in Resources */,
+				4DC6A39029CBF9E800E564A2 /* SLT_Dif.png in Resources */,
+				4DC6A36F29CBD85B00E564A2 /* WonderCar.json in Resources */,
+				4DC6A37329CBEED200E564A2 /* Heart.json in Resources */,
+				4DC6A38C29CBF7F400E564A2 /* SAMSUNG_Laptop.scn in Resources */,
+				4DC6A36729CBCA9B00E564A2 /* Coworkers.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DC6A32A29CB9CFD00E564A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC6A35C29CBABE500E564A2 /* CustomMapView.swift in Sources */,
+				4DC6A33429CB9CFD00E564A2 /* MapView.swift in Sources */,
+				4DC6A33229CB9CFD00E564A2 /* MapLottieThreeApp.swift in Sources */,
+				4DC6A37529CBF0EE00E564A2 /* ThreeView.swift in Sources */,
+				4DC6A35F29CBC82300E564A2 /* LottieFIleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC6A33A29CB9CFF00E564A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC6A34329CB9CFF00E564A2 /* MapLottieThreeTests.swift in Sources */,
+				4DC6A37629CBF0EE00E564A2 /* ThreeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC6A34429CB9CFF00E564A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC6A37729CBF0EE00E564A2 /* ThreeView.swift in Sources */,
+				4DC6A34D29CB9CFF00E564A2 /* MapLottieThreeUITests.swift in Sources */,
+				4DC6A34F29CB9CFF00E564A2 /* MapLottieThreeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DC6A34029CB9CFF00E564A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DC6A32D29CB9CFD00E564A2 /* MapLottieThree */;
+			targetProxy = 4DC6A33F29CB9CFF00E564A2 /* PBXContainerItemProxy */;
+		};
+		4DC6A34A29CB9CFF00E564A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DC6A32D29CB9CFD00E564A2 /* MapLottieThree */;
+			targetProxy = 4DC6A34929CB9CFF00E564A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4DC6A35029CB9CFF00E564A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The app needs to know your location to ensure services";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DC6A35129CB9CFF00E564A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The app needs to know your location to ensure services";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DC6A35329CB9CFF00E564A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MapLottieThree/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapLottieThree/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The app needs to know location to ensure services";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edoardobertora.MapLottieThree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DC6A35429CB9CFF00E564A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MapLottieThree/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MapLottieThree/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The app needs to know location to ensure services";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edoardobertora.MapLottieThree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DC6A35629CB9CFF00E564A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The app need to know location to ensure services";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edoardobertora.MapLottieThreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapLottieThree.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MapLottieThree";
+			};
+			name = Debug;
+		};
+		4DC6A35729CB9CFF00E564A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The app need to know location to ensure services";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edoardobertora.MapLottieThreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapLottieThree.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MapLottieThree";
+			};
+			name = Release;
+		};
+		4DC6A35929CB9CFF00E564A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The app need to know location to ensure services";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edoardobertora.MapLottieThreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MapLottieThree;
+			};
+			name = Debug;
+		};
+		4DC6A35A29CB9CFF00E564A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The app need to know location to ensure services";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edoardobertora.MapLottieThreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MapLottieThree;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DC6A32929CB9CFD00E564A2 /* Build configuration list for PBXProject "MapLottieThree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC6A35029CB9CFF00E564A2 /* Debug */,
+				4DC6A35129CB9CFF00E564A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC6A35229CB9CFF00E564A2 /* Build configuration list for PBXNativeTarget "MapLottieThree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC6A35329CB9CFF00E564A2 /* Debug */,
+				4DC6A35429CB9CFF00E564A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC6A35529CB9CFF00E564A2 /* Build configuration list for PBXNativeTarget "MapLottieThreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC6A35629CB9CFF00E564A2 /* Debug */,
+				4DC6A35729CB9CFF00E564A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC6A35829CB9CFF00E564A2 /* Build configuration list for PBXNativeTarget "MapLottieThreeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC6A35929CB9CFF00E564A2 /* Debug */,
+				4DC6A35A29CB9CFF00E564A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4DC6A36029CBC86000E564A2 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4DC6A36129CBC86000E564A2 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DC6A36029CBC86000E564A2 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4DC6A32629CB9CFD00E564A2 /* Project object */;
+}
